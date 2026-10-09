@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#1b100d" />
+  <title>The Butchery — Fresh cuts. Bold flavour.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="announcement"><span>Ravensmead's own since day one</span><span>Fresh cuts · Local flavour · Order on WhatsApp</span></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="The Butchery home"><span class="brand-mark">TB</span><span>The <b>Butchery</b><small>FRESH FROM OUR BLOCK</small></span></a>
+    <nav class="main-nav"><a href="#home" class="nav-link active">Home</a><a href="#shop" class="nav-link">Shop</a><a href="#story" class="nav-link">Our story</a></nav>
+    <div class="header-actions"><a href="#shop" class="button button-gold nav-order">Order now <span>↗</span></a><button class="cart-button" id="cartOpen" aria-label="Open shopping cart"><span class="cart-icon">♧</span><span class="cart-count" id="cartCount">0</span></button><button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button></div>
+  </header>
+  <main id="home">
+    <section class="hero wrap">
+      <div class="hero-copy"><div class="eyebrow"><span class="fire">✦</span> RAVENSMEAD'S OWN SINCE DAY ONE</div><h1>Fresh cuts.<br><em>Bold flavour.</em><br>No shortcuts.</h1><p>Proud. Bold. Fresh off the fire. Order your beef, pork, boerewors and biltong online, then confirm it straight through WhatsApp — no app, no fuss.</p><div class="hero-actions"><a class="button button-red" href="#shop">Shop the menu <span>→</span></a><a class="button button-outline" href="#combos">See combo deals</a></div><div class="hero-note"><span class="note-avatars">✦ ✦ ✦</span> Good meat. Good people. Always.</div></div>
+      <div class="hero-image-wrap"><img class="hero-image" src="https://images.unsplash.com/photo-1607623814075-e51df1bdc82f?auto=format&fit=crop&w=1300&q=85" alt="Freshly prepared premium steak with herbs"/><div class="image-stamp"><span>✦</span><b>FRESH<br>FROM THE<br>BLOCK</b></div><div class="image-caption"><span>THE GOOD STUFF</span><b>Made for your next braai.</b></div></div>
+      <div class="hero-decoration">GOOD MEAT, GOOD MOOD</div>
+    </section>
+    <section class="ticker"><div>FRESH FROM THE BLOCK <i>✦</i> READY FOR THE BRAAI <i>✦</i> LOCAL, ALWAYS <i>✦</i> BIG FLAVOUR, NO SHORTCUTS <i>✦</i> FRESH FROM THE BLOCK <i>✦</i></div></section>
+    <section class="section wrap categories-section"><div class="section-heading"><div><div class="eyebrow">PICK YOUR PLEASURE</div><h2>Shop by category<span class="period">.</span></h2></div><a class="text-link" href="#shop">Explore all <span>↗</span></a></div><div class="category-grid" id="categories"></div></section>
+    <section class="section favourites-section" id="shop"><div class="wrap"><div class="section-heading"><div><div class="eyebrow">THE CROWD PLEASERS</div><h2>Braai favourites<span class="period">.</span></h2></div><a class="text-link" href="#productGrid">View all <span>→</span></a></div><div class="filters" id="filters"></div><div class="product-grid" id="productGrid"></div><div class="center"><a class="button button-outline" href="#productGrid">View the full menu <span>→</span></a></div></div></section>
+    <section class="combo-section wrap" id="combos"><div class="combo-art"><img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=1000&q=85" alt="Grilled meat platter ready to share"><div class="combo-badge">THE<br>BRAAI<br>BUNDLE</div></div><div class="combo-copy"><div class="eyebrow">MORE TO SHARE</div><h2>Bring the<br><em>whole crew.</em></h2><p>We've done the maths. You bring the people, we'll bring the good stuff. Our combo deals make every get-together a little easier — and a lot tastier.</p><div class="combo-points"><span>✓ Hand-picked cuts</span><span>✓ Better value together</span><span>✓ Made for the fire</span></div><a class="button button-red" href="#shop" data-filter="Combo Deals">Shop combo deals <span>→</span></a></div></section>
+    <section class="story-section" id="story"><div class="wrap story-inner"><div><div class="eyebrow">A LITTLE LOCAL PRIDE</div><h2>Good meat.<br><em>Good people.</em></h2></div><div class="story-text"><p>We believe the best meals start with quality ingredients and a little bit of love. That's why we're proud to bring fresh, carefully prepared cuts to our Ravensmead community.</p><a class="text-link" href="#home">Get to know us <span>↗</span></a></div><div class="story-number"><b>100%</b><span>LOCAL<br>FLAVOUR</span></div></div></section>
+    <section class="cta-section wrap"><div class="cta-star">✳</div><div><div class="eyebrow">YOUR NEXT BRAAI STARTS HERE</div><h2>Let's make it <em>a good one.</em></h2></div><a href="#shop" class="button button-dark">Browse the menu <span>→</span></a></section>
+  </main>
+  <footer class="site-footer"><div class="wrap footer-main"><a class="brand" href="#home"><span class="brand-mark">TB</span><span>The <b>Butchery</b><small>FRESH FROM OUR BLOCK</small></span></a><p>Fresh cuts. Bold flavour.<br>Ravensmead, Cape Town.</p><div class="footer-links"><a href="#shop">Shop</a><a href="#story">Our story</a><a href="#home">Contact</a></div><a href="#shop" class="button button-gold">Order on WhatsApp <span>↗</span></a></div><div class="wrap footer-bottom"><span>© 2025 The Butchery. Made with local love.</span><span>FRESH FROM OUR BLOCK · RAVENSMEAD</span></div></footer>
+  <aside class="cart-drawer" id="cartDrawer" aria-hidden="true"><div class="drawer-backdrop" id="cartClose"></div><div class="drawer-panel"><div class="drawer-header"><div><div class="eyebrow">YOUR GOOD STUFF</div><h3>Your basket <span id="drawerCount">(0)</span></h3></div><button class="close-button" id="drawerX" aria-label="Close basket">×</button></div><div class="cart-items" id="cartItems"></div><div class="cart-empty" id="cartEmpty"><span>✳</span><h4>Your basket's looking a little empty.</h4><p>Let's fix that with something good.</p><button class="button button-red" id="emptyShop">Shop the menu →</button></div><div class="drawer-footer" id="drawerFooter"><div class="cart-total"><span>Subtotal</span><b id="cartTotal">R 0,00</b></div><p>Final order details are confirmed on WhatsApp.</p><button class="button button-red checkout" id="checkout">Continue on WhatsApp <span>↗</span></button></div></div></aside>
+  <div class="toast" id="toast">Added to your basket <span>✦</span></div>
+  <script src="app.js"></script>
+</body>
+</html>
